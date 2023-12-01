@@ -11,7 +11,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: apps/sikademo
+    path: apps
     repoURL: https://gitlab.sikademo.com/example/2.git
     targetRevision: HEAD
     directory:
