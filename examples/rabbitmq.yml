@@ -26,7 +26,7 @@ spec:
         auth:
           username: admin
           password: admin
-        replicaCount: 3
+        replicaCount: 6
         ingress:
           enabled: true
           path: /
