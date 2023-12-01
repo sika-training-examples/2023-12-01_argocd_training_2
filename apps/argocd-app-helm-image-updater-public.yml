@@ -20,6 +20,8 @@ spec:
     repoURL: https://github.com/sikalabs/charts.git
     targetRevision: HEAD
     path: charts/one-image
+    values: |
+        replicas: 3
     helm:
       releaseName: hello-world-helm-image-updater-public
       values: |
