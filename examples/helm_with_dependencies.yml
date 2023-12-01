@@ -17,5 +17,5 @@ spec:
     syncOptions:
       - CreateNamespace=true
   source:
-    repoURL: https://github.com/ondrejsika/argocd-training.git
+    repoURL: https://gitlab.sikademo.com/example/2.git
     path: examples/helm_with_dependencies

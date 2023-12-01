@@ -23,7 +23,7 @@ spec:
     helm:
       releaseName: hello-world-helm-image-updater-public
       values: |
-        host: hello-world-helm-image-updater-public.k8s.sikademo.com
+        host: hello-world-helm-image-updater-public.k8s2.sikademo.com
         image: reg.istry.cz/image-updater-example
   syncPolicy:
     automated:

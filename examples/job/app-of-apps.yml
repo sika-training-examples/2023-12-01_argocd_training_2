@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     path: examples/job/apps
-    repoURL: https://github.com/ondrejsika/argocd-training.git
+    repoURL: https://gitlab.sikademo.com/example/2.git
     targetRevision: master
   syncPolicy:
     automated:

@@ -38,6 +38,6 @@ spec:
         helm:
           releaseName: '{{name}}'
           values: |
-            host: 'appset-{{name}}.k8s.sikademo.com'
+            host: 'appset-{{name}}.k8s2.sikademo.com'
             TEXT: '{{text}}'
             replicas: {{replicas}}
