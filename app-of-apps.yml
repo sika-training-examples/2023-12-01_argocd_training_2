@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     path: apps/sikademo
-    repoURL: https://github.com/ondrejsika/example/2.git
+    repoURL: https://gitlab.sikademo.com/example/2.git
     targetRevision: HEAD
     directory:
       recurse: true
