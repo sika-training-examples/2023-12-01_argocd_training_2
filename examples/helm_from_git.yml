@@ -21,8 +21,6 @@ spec:
   #  targetRevision: HEAD
     path: charts/one-image
     helm:
-      releaseName: one-image
-      values:
-        host: one-image.k8s.sikademo.com
-        image: ondrejsika/iceland-2
+      releaseName: helm-from-git
+      values: |
         replicas: 3
