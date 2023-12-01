@@ -18,9 +18,11 @@ spec:
       - CreateNamespace=true
   source:
     repoURL: https://github.com/sikalabs/charts.git
-    targetRevision: HEAD
-    path: charts/hello-world
+  #  targetRevision: HEAD
+    path: charts/one-image
     helm:
-      releaseName: helm-from-git
-      values: |
+      releaseName: one-image
+      values:
+        host: one-image.k8s.sikademo.com
+        image: ondrejsika/iceland-2
         replicas: 3
